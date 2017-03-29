@@ -1,4 +1,3 @@
-library(tidyr)
 library(dplyr)
 
 ## Data reading ----
@@ -68,3 +67,6 @@ data2 <- data %>%
         select(-type) %>% 
         group_by(activity, subject) %>% 
         summarise_all(funs(mean))
+
+
+write.table(data2, file = "HAR_averages.txt", row.names = FALSE)
