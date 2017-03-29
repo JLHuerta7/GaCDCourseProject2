@@ -10,7 +10,7 @@ Afterwards, it creates a second dataframe that stores the averages of all the fe
 
 ## Dataframes description
 
-#### First dataframe(data)
+### First dataframe(data)
 The first dataframe includes as its variables:
 
 - **Subject**: an integer code that identifies the subject of study 
@@ -40,7 +40,7 @@ deviation (std) of the signals were taken
 - **Type**: a factor indicating if values were used for training (train) or testing (test) ML algorithms
 - **Activity**: a string indicating the activity performed by the subject when the data was taken. There are six possible cases: walking, walking upstairs, walking downstairs, sitting, standing or laying  
 
-#### Second dataframe(data2)
+### Second dataframe(data2)
 The second dataframe contains:
 
 - **Activity**: as described for dataframe 1
