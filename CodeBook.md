@@ -45,4 +45,4 @@ The second dataframe contains:
 
 - **Activity**: as described for dataframe 1
 - **Subject**: as described for dataframe 1
-- **Features averages**: as described above, averages of features described for dataframe 1 were taken as the arithmetic mean. A different approach with the standard deviations could have been to calculate the full variance of the dataset, but this was not interpreted as the required average
+- **Features averages**: as described above, averages of features described for dataframe 1 were taken as the arithmetic mean. A different approach with the standard deviations could have been to calculate the full variance of each feature of the dataset, but this was not interpreted as the required average
