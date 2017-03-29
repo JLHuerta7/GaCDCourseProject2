@@ -9,6 +9,8 @@ The full data set is contained in a directory named "UCI HAR Dataset". Subjects,
 Afterwards, it creates a second dataframe that stores the averages of all the features (taken as the arithmetic mean, as not indicated otherwise in the project requirements) grouped by subject and activity. Lastly, it stores this dataframe in the text file "HAR_averages.txt", uploaded to the repository
 
 ## Dataframes description
+
+#### First dataframe(data)
 The first dataframe includes as its variables:
 
 - **Subject**: an integer code that identifies the subject of study 
@@ -38,9 +40,9 @@ deviation (std) of the signals were taken
 - **Type**: a factor indicating if values were used for training (train) or testing (test) ML algorithms
 - **Activity**: a string indicating the activity performed by the subject when the data was taken. There are six possible cases: walking, walking upstairs, walking downstairs, sitting, standing or laying  
 
-
+#### Second dataframe(data2)
 The second dataframe contains:
 
 - **Activity**: as described for dataframe 1
 - **Subject**: as described for dataframe 1
-- **Features averages**: as described above, averages were taken as the arithmetic mean. A different approach with the standard deviations could have been to calculate the full variance of the dataset, but this was not interpreted as required
+- **Features averages**: as described above, averages were taken as the arithmetic mean. A different approach with the standard deviations could have been to calculate the full variance of the dataset, but this was not interpreted as the required average
