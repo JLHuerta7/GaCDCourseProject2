@@ -4,7 +4,7 @@ The script takes wearable computing data from de UCI Human Activity Recognition 
 accelerometers. The data can be accesed from the 
 [UCI Machine Learning repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
-The full data set is contained in a directory named "UCI HAR Dataset". Subjects, measured features and activities (described below) are stored in different files. Data is also split into training and testing datasets. The script "run_analysis.R" merges all of this data in one big data frame, substitutes activity codes by its names, creates a new variable indicating if the record comes from the training or the testing dataset, and provides descriptive names to all the variables involved.
+The full data set is contained in a directory named "UCI HAR Dataset". Subjects, measured features and activities (described below) are stored in different files. Data is also split into training and testing datasets. The script "run_analysis.R" merges all of this data in one big data frame, substitutes activity codes by its names (using the "activity_labels.txt" file), creates a new variable indicating if the record comes from the training or the testing dataset, and provides descriptive names to all the variables involved.
 
 Afterwards, it creates a second dataframe that stores the averages of all the features (taken as the arithmetic mean, as not indicated otherwise in the project requirements) grouped by subject and activity. Lastly, it stores this dataframe in the text file "HAR_averages.txt", uploaded to the repository
 
